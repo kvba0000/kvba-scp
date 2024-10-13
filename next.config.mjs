@@ -7,6 +7,19 @@ const nextConfig = {
                     source: "/img/entities/:path*",
                     destination: "/img/entities/REDACTED.jpg"
                 }
+            ],
+            beforeFiles: [
+                {
+                    source: "/:path*",
+                    has: [
+                        {
+                            "type": "host",
+                            "value": "kvba-scp.pages.dev"
+                        }
+                    ],
+                    destination: "https://scp.kuba.lol/:path*",
+                    permanent: true
+                }
             ]
         }
     }
