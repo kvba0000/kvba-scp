@@ -1,0 +1,28 @@
+.entity-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.entity-preview {
+    > * {
+        display: block;
+    }
+
+    img.preview {
+        max-width: 300px;
+        height: auto;
+        border: 3px dotted var(--text);
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+}
+
+span.text-section {
+    display: block;
+    margin-top: 10px;
+
+    overflow-wrap: break-word;
+}
