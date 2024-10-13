@@ -17,8 +17,7 @@ const nextConfig = {
                             "value": "kvba-scp.pages.dev"
                         }
                     ],
-                    destination: "https://scp.kuba.lol/:path*",
-                    permanent: true
+                    destination: "https://scp.kuba.lol/:path*"
                 }
             ]
         }
